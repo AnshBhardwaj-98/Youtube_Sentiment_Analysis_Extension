@@ -26,12 +26,7 @@ A Chrome extension that injects a sidebar on YouTube video pages, fetches commen
 
 ## Installation
 
-### Option 1: From Chrome Web Store (if published)
-1. Visit the [Chrome Web Store link]().  
-2. Click **Add to Chrome**.  
-3. Follow the prompts to install.  
-
-### Option 2: Manual Installation (Developer Mode)
+### Manual Installation (Developer Mode)
 1. Download or clone this repository.  
 2. Open **Chrome** → go to `chrome://extensions/`.  
 3. Enable **Developer mode** (top right).  
