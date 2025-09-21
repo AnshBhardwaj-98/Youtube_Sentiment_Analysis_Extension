@@ -85,6 +85,6 @@ A Chrome extension that injects a sidebar on YouTube video pages, fetches commen
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/AnshBhardwaj-98/Youtube_Sentiment_Analysis_Extension/edit/main
+   1git clone https://github.com/AnshBhardwaj-98/Youtube_Sentiment_Analysis_Extension.git
 
 
