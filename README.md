@@ -48,8 +48,43 @@ A Chrome extension that injects a sidebar on YouTube video pages, fetches commen
 
 ---
 
+# Working ScreenShots
+## Loading Analysis
+<img width="1919" height="868" alt="Screenshot 2025-09-21 171702" src="https://github.com/user-attachments/assets/ad5562c0-ca70-4406-a4b8-fd48a952cc48" />
+
+## Sentiment Scores of different videos
+<img width="1920" height="1020" alt="Screenshot 2025-09-21 172310" src="https://github.com/user-attachments/assets/459d5aea-7c06-4e7a-ad21-40b73a34bee5" />
+<img width="1919" height="864" alt="Screenshot 2025-09-21 172110" src="https://github.com/user-attachments/assets/04cc43fe-ef38-4a2c-a5b5-f3806931e022" />
+<img width="1919" height="869" alt="Screenshot 2025-09-21 172022" src="https://github.com/user-attachments/assets/a7038e7a-ed8b-41d3-a717-23086b13ab40" />
+<img width="1919" height="870" alt="Screenshot 2025-09-21 171853" src="https://github.com/user-attachments/assets/1b963ba2-390a-4c42-b862-6fdbb18268ac" />
+
+---
+
+## Sample Response from Sentiment Analysis API
+
+{
+  "overall_sentiment": "Positive",
+  "top_10_positive_comments": [
+    "WHY THE MOVIE TRÓIA IS SO IMPORTANT FOR US?",
+    "The movie troya is very importante. Can to see?",
+    "Not enough people talking about how fine Damson Idris is!!!!",
+    "I'm 52 and have watched almost all of Pitt's films and many of his interviews and he is just consistently charming, sincere, funny, clever, witty and the opposite of arrogant/cocky. Love this man. Phenomenal actor too. Have watched many of his films more than six times each film. What a gem and a gift to art.",
+    "Pitt is like a fine wine man",
+    "This was a cute interview. I love how they participated and added their own questions.",
+    "Liverpool is the best team to have ever existed in England",
+    "Why does Brad have to be so damn cool and seem so relatable??? Even though he’s an insanely handsome gazillionaire.",
+    "no way bro said messi is the best fb player",
+    "my brain is going what region for British accent cause that really makes or breaks it, like what if he was from a town like 5 min drive from wales, or Liverpool, south east London, north east London, and the same goes for the states, what region? Midwest? Southern, Californian, New York, jersey accent, Boston accent, and Oklahoma accent, Texan so it all depends"
+  ],
+  "total_positive": 471,
+  "total_negative": 125,
+  "total_neutral": 335
+}
+
 ## Development
 
 1. Clone the repository:  
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/AnshBhardwaj-98/Youtube_Sentiment_Analysis_Extension/edit/main
+
+
