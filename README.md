@@ -5,6 +5,8 @@ A Chrome extension that injects a sidebar on YouTube video pages, fetches commen
 
 ---
 
+## FrontEnd_Link[https://github.com/AnshBhardwaj-98/Youtube_Sentiment_Analysis_Extension] || BackEnd_Link[https://github.com/AnshBhardwaj-98/Youtube_Sentiment_Analysis]
+
 ## Features
 
 - Automatically injects a sidebar while watching any YouTube video.  
